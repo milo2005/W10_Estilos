@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="Estilos.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Estilos"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Ellipse Grid.Row="0" Grid.Column="0" 
+                 Style="{StaticResource CiruloGato}"/>
+        <Ellipse Fill="Blue" Grid.Row="0" Grid.Column="1"/>
+        <Ellipse Fill="Yellow" Grid.Row="0" Grid.Column="2"/>
+        <Ellipse Fill="Violet" Grid.Row="1" Grid.Column="0"/>
+        <Ellipse Fill="Green" Grid.Row="1" Grid.Column="1"/>
+        <Ellipse Fill="Orange" Grid.Row="1" Grid.Column="2"/>
+        <Ellipse Fill="Gold" Grid.Row="2" Grid.Column="0"/>
+        <Ellipse Fill="Silver" Grid.Row="2" Grid.Column="1"/>
+        <Ellipse Fill="PapayaWhip" Grid.Row="2" Grid.Column="2"/>
+        
+        
+    </Grid>
+</Page>
